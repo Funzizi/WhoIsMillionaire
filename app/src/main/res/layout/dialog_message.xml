@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@color/blue_100"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Bạn đã trả lời sai!"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@+id/tv1"
+        android:text="Bạn có muốn chơi lại không?"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/bt_Yes"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/tv2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:text="Có"
+        android:textAllCaps="false"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:background="@drawable/dialog_continue"
+        />
+
+    <Button
+        android:id="@+id/bt_No"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/tv2"
+        android:layout_marginTop="15dp"
+        android:layout_toLeftOf="@+id/bt_Yes"
+        android:layout_marginRight="20dp"
+        android:text="Không"
+        android:textAllCaps="false"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:background="@drawable/dialog_stop"
+        />
+
+</RelativeLayout>

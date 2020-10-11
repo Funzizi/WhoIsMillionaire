@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/blue_100"
+    android:padding="5dp"
+    >
+
+    <TextView
+        android:id="@+id/tv_question_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/bt_yesHalf"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tv_question_help"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:text="Đồng ý"
+        android:textAllCaps="false"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:background="@drawable/dialog_continue"
+        />
+
+    <Button
+        android:id="@+id/bt_noHalf"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tv_question_help"
+        android:layout_toLeftOf="@+id/bt_yesHalf"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:text="Từ chối"
+        android:textAllCaps="false"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:background="@drawable/dialog_stop"
+        />
+
+</RelativeLayout>

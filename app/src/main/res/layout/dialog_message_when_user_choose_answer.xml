@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/blue_100"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/bt_agree"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:text="Đồng ý"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:background="@drawable/dialog_continue"
+        />
+
+    <Button
+        android:id="@+id/bt_disagree"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv"
+        android:layout_marginTop="15dp"
+        android:layout_toLeftOf="@+id/bt_agree"
+        android:layout_marginRight="20dp"
+        android:text="Chọn lại"
+        android:textAllCaps="false"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:background="@drawable/dialog_stop"
+        />
+
+</RelativeLayout>

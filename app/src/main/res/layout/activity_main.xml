@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/imv_dollar"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/dollar"
+            />
+
+        <TextView
+            android:id="@+id/tv_Point"
+            android:layout_width="85dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/imv_dollar"
+            android:textColor="@color/yellow_400"
+            android:textSize="22sp"
+            android:paddingTop="3dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_Stt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/noh_carbone"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_times"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_Question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_Stt"
+            android:layout_margin="20dp"
+            android:background="@drawable/custom_question"
+            android:fontFamily="@font/montserrat_bold"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_top"
+        android:layout_above="@+id/rl_bottom">
+
+        <Button
+            android:id="@+id/bt_AnswerA"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/background_answer"
+            android:gravity="left"
+            android:onClick="clickAnswer"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/bt_AnswerB"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_below="@+id/bt_AnswerA"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="50dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:gravity="left"
+            android:textAllCaps="false"
+            android:background="@drawable/background_answer"
+            android:onClick="clickAnswer"
+            />
+
+        <Button
+            android:id="@+id/bt_AnswerC"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_below="@+id/bt_AnswerB"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="50dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:background="@drawable/background_answer"
+            android:onClick="clickAnswer"
+            />
+
+        <Button
+            android:id="@+id/bt_AnswerD"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_below="@+id/bt_AnswerC"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="50dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:background="@drawable/background_answer"
+            android:onClick="clickAnswer"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true">
+
+        <ImageButton
+            android:id="@+id/ibt_Call"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/call"
+            android:background="@drawable/custom_help"
+            android:onClick="onClickHelp"
+            />
+
+        <Button
+            android:id="@+id/bt_Half"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_toLeftOf="@+id/ibt_Call"
+            android:layout_marginRight="15dp"
+            android:text="50 : 50"
+            android:textSize="12sp"
+            android:background="@drawable/custom_help"
+            android:textColor="@color/black"
+            android:onClick="onClickHelp"
+            />
+
+        <ImageButton
+            android:id="@+id/ibt_Person"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/ibt_Call"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/custom_help"
+            android:src="@mipmap/person"
+            android:textColor="@color/white"
+            android:onClick="onClickHelp"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,1192 @@
+[
+  {
+    "câu": 1,
+    "Question": "Sông Nin chảy ra biển nào?",
+    "A": "Biển Đỏ",
+    "B": "Địa Trung Hải",
+    "C": "Biển Đen",
+    "D": "Biển Baltic",
+    "answer": "B",
+    "level": 1
+  },
+  {
+    "câu": 2,
+    "Question": "Chú bé rắc rối là tác phẩm của nhà văn nào sau đây?",
+    "A": "Nguyễn Việt Hà",
+    "B": "Nguyễn Ngọc Tư",
+    "C": "Nguyễn Thị Thu Huệ",
+    "D": "Nguyễn Nhật Ánh",
+    "answer": "D",
+    "level": 2
+  },
+  {
+    "câu": 3,
+    "Question": "Loài hoa nào thường nở vào buổi tối?",
+    "A": "Hoa mười giờ",
+    "B": "Hoa quỳnh",
+    "C": "Hoa đồng tiền",
+    "D": "Hoa hồng",
+    "answer": "B",
+    "level": 1
+  },
+  {
+    "câu": 4,
+    "Question": "Theo luật giao thông đường bộ, loại xe nào sau đây được ưu tiên khi tham gia giao thông đường bộ?",
+    "A": "Xe lu",
+    "B": "Xe 3 gác",
+    "C": "Xe cứu thương",
+    "D": "Xe thồ",
+    "answer": "C",
+    "level": 1
+  },
+  {
+    "câu": 5,
+    "Question": "Quả nào khi còn xanh thường để làm món nộm?",
+    "A": "Hồng xiêm",
+    "B": "Cau",
+    "C": "Bơ",
+    "D": "Đu đủ",
+    "answer": "D",
+    "level": 1
+  },
+  {
+    "câu": 6,
+    "Question": "Nhân vật nào sau đây gắn với truyền thuyết về bánh chưng bánh dày?",
+    "A": "Trọng Thuỷ",
+    "B": "Sơn Tinh",
+    "C": "Lang Liêu",
+    "D": "Chương Chi",
+    "answer": "C",
+    "level": 1
+  },
+  {
+    "câu": 7,
+    "Question": "Đèo Ô Phi Hồ nối liền tỉnh Lào Cai với tỉnh nào?",
+    "A": "Lai Châu",
+    "B": "Hà Giang",
+    "C": "Yên Bái",
+    "D": "Tuyên Quang",
+    "answer": "A",
+    "level": 2
+  },
+  {
+    "câu": 8,
+    "Question": "Bài hát tiếng ve gọi hè là sáng tác của ai?",
+    "A": "Phạm Trọng Cầu",
+    "B": "Phong Nhã",
+    "C": "Hoàng Long, Loàng Lân",
+    "D": "Trịnh Công Sơn",
+    "answer": "D",
+    "level": 2
+  },
+  {
+    "câu": 9,
+    "Question": "Từ nào còn thiếu trong câu ca dao sau? Thân em như hạt ... Hạt vào đài cát hạt ra ruộng cầy",
+    "A": "Tuyết rơi",
+    "B": "Bông trắng",
+    "C": "Mưa đá",
+    "D": "Mưa xa",
+    "answer": "D",
+    "level": 1
+  },
+  {
+    "câu": 10,
+    "Question": "Hoa sấu có màu gì?",
+    "A": "Tím",
+    "B": "Đỏ",
+    "C": "Trắng",
+    "D": "Vàng nhạt",
+    "answer": "C",
+    "level": 1
+  },
+  {
+    "câu": 11,
+    "Question": "Quả gì được nhắc đến trong câu thơ sau? Quả ... nho nhỏ cái vỏ vân vân",
+    "A": "Khế",
+    "B": "Chanh",
+    "C": "Mít",
+    "D": "Cau",
+    "answer": "B",
+    "level": 1
+  },
+  {
+    "câu": 12,
+    "Question": "Trong ẩm thực nhật bản, Matcha là loại nguyên liệu nào?",
+    "A": "Bột gạo",
+    "B": "Bột trà xanh",
+    "C": "Bột ngô",
+    "D": "Bột đậu",
+    "answer": "B",
+    "level": 1
+  },
+  {
+    "câu": 13,
+    "Question": "Tỉnh nào sau đây không giáp biển?",
+    "A": "Lạng Sơn",
+    "B": "Cà Mau",
+    "C": "Quảng Bình",
+    "D": "Khánh Hoà",
+    "answer": "A",
+    "level": 1
+  },
+  {
+    "câu": 14,
+    "Question": "Cối xay gió là hình ảnh quen thuộc gắn với đất nước nào sau đây?",
+    "A": "Trung Quốc",
+    "B": "Hà Lan",
+    "C": "Séc",
+    "D": "Hy Lạp",
+    "answer": "B",
+    "level": 2
+  },
+  {
+    "câu": 15,
+    "Question": "Thi nhân là từ dùng để chỉ ai?",
+    "A": "Người đọc",
+    "B": "Thợ in",
+    "C": "Nhà Thơ",
+    "D": "Người xuất bản sách",
+    "answer": "C",
+    "level": 1
+  },
+  {
+    "câu": 16,
+    "Question": "Khí hậu Việt Nam là loại khí hậu gì?",
+    "A": "Địa Trung Hải",
+    "B": "Ôn đới",
+    "C": "Hàn đới",
+    "D": "Nhiệt đới gió mùa",
+    "answer": "D",
+    "level": 1
+  },
+  {
+    "câu": 17,
+    "Question": "Đâu không phải tên một kiểu bơi?",
+    "A": "Bơi ếch",
+    "B": "Bơi bướm",
+    "C": "Bơi ruồi",
+    "D": "Bơi chó",
+    "answer": "C",
+    "level": 1
+  },
+  {
+    "câu": 18,
+    "Question": "Có câu ăn chắc mặc ... gì?",
+    "A": "Xịn",
+    "B": "Bền",
+    "C": "Chắc",
+    "D": "Mỏng",
+    "answer": "B",
+    "level": 1
+  },
+  {
+    "câu": 19,
+    "Question": "Tranh Đông Hồ truyền thống được vẽ trên chất liệu gì?",
+    "A": "Cát",
+    "B": "Giấy gió",
+    "C": "Tường",
+    "D": "Kính",
+    "answer": "B",
+    "level": 1
+  },
+  {
+    "câu": 20,
+    "Question": "Trong bài thơ đêm nay Bác không ngủ, đoàn dân công ngủ trong rừng đã dùng cái gì làm chăn?",
+    "A": "Áo",
+    "B": "Quần",
+    "C": "Váy",
+    "D": "Khăn",
+    "answer": "A",
+    "level": 2
+  },
+  {
+    "câu": 21,
+    "Question": "Loại áo nào đã được trang bị cho các chiến sĩ bộ đội thời kháng chiến chống Pháp?",
+    "A": "Áo bào",
+    "B": "Áo dài",
+    "C": "Áo chấn thủ",
+    "D": "Áo lụa",
+    "answer": "C",
+    "level": 2
+  },
+  {
+    "câu": 22,
+    "Question": "Hàm Nghi là vị vua của triều đại nào?",
+    "A": "Trần",
+    "B": "Lê",
+    "C": "Lý",
+    "D": "Nguyễn",
+    "answer": "D",
+    "level": 3
+  },
+  {
+    "câu": 23,
+    "Question": "Loài cá nào sau đây thuộc loại động vật có vú?",
+    "A": "Cá nhà táng",
+    "B": "Cá kiếm",
+    "C": "Cá đuối",
+    "D": "Cá mập",
+    "answer": "A",
+    "level": 2
+  },
+  {
+    "câu": 24,
+    "Question": "Món ăn phụ trước khi kết thúc một bữa ăn gọi là gì?",
+    "A": "Điểm",
+    "B": "Khai vị",
+    "C": "Chính",
+    "D": "Tráng miệng",
+    "answer": "D",
+    "level": 1
+  },
+  {
+    "câu": 25,
+    "Question": "Trong bài hát mẹ yêu không nào, con cò đã đậu trên cành gì?",
+    "A": "Cành trúc",
+    "B": "Cành tre",
+    "C": "Cành mai",
+    "D": "Cành bưởi",
+    "answer": "B",
+    "level": 1
+  },
+  {
+    "câu": 26,
+    "Question": "Vỏ trứng gà có chứa nhiều chất gì?",
+    "A": "Vitamin C",
+    "B": "Vitamin A",
+    "C": "Sắt",
+    "D": "Canxi",
+    "answer": "D",
+    "level": 1
+  },
+  {
+    "câu": 27,
+    "Question": "Đâu không phải là tên gọi của một thời kì lịch sử trong tiến trình văn minh nhân lại?",
+    "A": "Thời đại đồ đá",
+    "B": "Thời đại đồ sắt",
+    "C": "Thời đại đồ đồng",
+    "D": "Thời đại đồ Inox",
+    "answer": "D",
+    "level": 2
+  },
+  {
+    "câu": 28,
+    "Question": "Đâu không phải là từ để miêu tả khuôn mặt?",
+    "A": "Trái xoan",
+    "B": "Vuông chữ điền",
+    "C": "Tròn",
+    "D": "Trái chuối",
+    "answer": "D",
+    "level": 1
+  },
+  {
+    "câu": 29,
+    "Question": "Loài vật nào được biết đến là chim báo bão?",
+    "A": "Vịt trời",
+    "B": "Hải âu",
+    "C": "Thiên nga",
+    "D": "Chim cánh cụt",
+    "answer": "B",
+    "level": 2
+  },
+  {
+    "câu": 30,
+    "Question": "Loài vật nào không xuất hiện trong bài thơ Nhớ Rừng của nhà thơ Thế Lữ?",
+    "A": "Nai",
+    "B": "Gấu",
+    "C": "Báo",
+    "D": "Hổ",
+    "answer": "A",
+    "level": 3
+  },
+  {
+    "câu": 31,
+    "Question": "Nguyễn Thị Ánh Viên là vận động viên nổi tiếng trong bộ môn thể thao nào?",
+    "A": "Bơi lội",
+    "B": "golf",
+    "C": "Bóng đá",
+    "D": "Ủ xu",
+    "answer": "A",
+    "level": 1
+  },
+  {
+    "câu": 32,
+    "Question": "Nhân vật nào sau đây không xuất hiện trong tác phẩm Truyện Kiều của Nguyễn Du?",
+    "A": "Phúc Ông",
+    "B": "Bạc Bà",
+    "C": "Tuyển Ông",
+    "D": "Tú Bà",
+    "answer": "C",
+    "level": 2
+  },
+  {
+    "câu": 33,
+    "Question": "Người miền Bắc thường cho gia vị nào vào cháo để giải cảm?",
+    "A": "Hành tây",
+    "B": "Tía tô",
+    "C": "Diếp cá",
+    "D": "Húng quế",
+    "answer": "A",
+    "level": 1
+  },
+  {
+    "câu": 34,
+    "Question": "Gia đình nhà bác học nào được mệnh danh là gia đình Nobel?",
+    "A": "Marie Curie",
+    "B": "Issac Newton",
+    "C": "Ernest Rutherford",
+    "D": "Anbert Einstein",
+    "answer": "A",
+    "level": 2
+  },
+  {
+    "câu": 35,
+    "Question": "Đâu là tên một loại rau thơm?",
+    "A": "Vị",
+    "B": "Mùi",
+    "C": "Hương",
+    "D": "Sắc",
+    "answer": "B",
+    "level": 1
+  },
+  {
+    "câu": 36,
+    "Question": "Đâu là một loài động vật lưỡng cư?",
+    "A": "Ếch",
+    "B": "Cá chép",
+    "C": "Sóc",
+    "D": "Chuột chù",
+    "answer": "A",
+    "level": 1
+  },
+  {
+    "câu": 37,
+    "Question": "Phòng giảng bài ở các trường cao đẳng đại học được gọi là gì?",
+    "A": "Giảng phòng",
+    "B": "Giảng khoa",
+    "C": "Giảng đường",
+    "D": "Giảng lớp",
+    "answer": "C",
+    "level": 1
+  },
+  {
+    "câu": 38,
+    "Question": "Hệ thống các con đường buôn bán nổi tiếng đã từ hàng nghìn năm nối Châu Á với Châu Âu được gọi là gì?",
+    "A": "Con đường ngà ngọc",
+    "B": "Con đường hoàng kim",
+    "C": "Con đường tơ lụa",
+    "D": "Con đường cát sỏi",
+    "answer": "C",
+    "level": 1
+  },
+  {
+    "câu": 39,
+    "Question": "Để lưu một văn bản trong Word ta phải dùng tổ hợp phím nào?",
+    "A": "Ctrl + S",
+    "B": "Ctrl + C",
+    "C": "Ctrl + V",
+    "D": "Ctrl + Z",
+    "answer": "A",
+    "level": 1
+  },
+  {
+    "câu": 40,
+    "Question": "Đất nước nào sau đây không giáp biển?",
+    "A": "Áo",
+    "B": "Bỉ",
+    "C": "Đức",
+    "D": "Pháp",
+    "answer": "A",
+    "level": 3
+  },
+  {
+    "câu": 41,
+    "Question": "Mùa xuân ở miền Bắc nước ta thường có loại mưa gì?",
+    "A": "Mưa đá",
+    "B": "Mưa phùn",
+    "C": "Mưa rào",
+    "D": "Mưa giông",
+    "answer": "B",
+    "level": 1
+  },
+  {
+    "câu": 42,
+    "Question": "Tỉnh nào sau đây giáp với Quảng Trị?",
+    "A": "Quảng Bình",
+    "B": "Quảng Nam",
+    "C": "Quảng Ngãi",
+    "D": "Quảng Ninh",
+    "answer": "D",
+    "level": 1
+  },
+  {
+    "câu": 43,
+    "Question": "Tổ hợp phím Ctrl + Z trong hệ soạn thảo văn bản Word có tác dụng gì?",
+    "A": "Dán chữ",
+    "B": "Sao chép",
+    "C": "Lưu văn bản",
+    "D": "Quay lại",
+    "answer": "D",
+    "level": 1
+  },
+  {
+    "câu": 44,
+    "Question": "Loại vải nào được làm từ sợi tơ tằm?",
+    "A": "Lụa",
+    "B": "Lanh",
+    "C": "Len",
+    "D": "Dạ",
+    "answer": "A",
+    "level": 2
+  },
+  {
+    "câu": 45,
+    "Question": "Bộ luật Hồng Đức được hoàn chỉnh và ban hành vào đời vua nào?",
+    "A": "Lê Thái Tông",
+    "B": "Lê Thánh Tông",
+    "C": "Lê Thái Tổ",
+    "D": "Lê Đại Hành",
+    "answer": "B",
+    "level": 3
+  },
+  {
+    "câu": 46,
+    "Question": "Chiến thắng Ngọc Hồi - Đống Đa của vua Quang Trung trước quân Thanh xâm lược diễn ra vào năm âm lịch nào?",
+    "A": "Mậu Thân",
+    "B": "Kỷ Dậu",
+    "C": "Canh Tuất",
+    "D": "Tân Hợi",
+    "answer": "B",
+    "level": 3
+  },
+  {
+    "câu": 47,
+    "Question": "Theo dương lịch, ngày hạ chí ở bắc bán cầu là ngày nào trong năm?",
+    "A": "21-3",
+    "B": "22-6",
+    "C": "23-9",
+    "D": "22-12",
+    "answer": "B",
+    "level": 2
+  },
+  {
+    "câu": 48,
+    "Question": "Cổ nguyệt là tên gọi khác của loài cây công nghiệp nào?",
+    "A": "Cao su",
+    "B": "Dâu tằm",
+    "C": "Điều",
+    "D": "Hồ tiêu",
+    "answer": "D",
+    "level": 2
+  },
+  {
+    "câu": 49,
+    "Question": "Để được màu da cam ta phải trộn 2 màu nào với nhau?",
+    "A": "Vàng và đỏ",
+    "B": "Xanh và đỏ",
+    "C": "Đen và đỏ",
+    "D": "Tím và đỏ",
+    "answer": "A",
+    "level": 1
+  },
+  {
+    "câu": 50,
+    "Question": "Bộ truyện tranh thần đồng đất Việt lấy bối cảnh là thời kì nào trong lịch sử?",
+    "A": "Tiền Lý",
+    "B": "Hậu Lê",
+    "C": "Hậu Lý",
+    "D": "Trần",
+    "answer": "B",
+    "level": 3
+  },
+  {
+    "câu": 51,
+    "Question": "Nước Ý không có biên giới chung với nước nào?",
+    "A": "Áo",
+    "B": "Pháp",
+    "C": "Đức",
+    "D": "Thuỵ Sỹ",
+    "answer": "C",
+    "level": 3
+  },
+  {
+    "câu": 52,
+    "Question": "Sông Thương còn được gọi với cái tên nào sau đây?",
+    "A": "Nhật Nguyệt",
+    "B": "Nhật Đức",
+    "C": "Nhật Thăng",
+    "D": "Nhật Lệ",
+    "answer": "B",
+    "level": 3
+  },
+  {
+    "câu": 53,
+    "Question": "Đất nước nào sau đây nổi tiếng với các loại rượu vang?",
+    "A": "Mỹ",
+    "B": "Hà Lan",
+    "C": "Bỉ",
+    "D": "Pháp",
+    "answer": "D",
+    "level": 2
+  },
+  {
+    "câu": 54,
+    "Question": "Cửa khẩu nào là cửa khẩu quốc tế đường sông giữa Việt nam và Campuchia?",
+    "A": "Vĩnh Xương",
+    "B": "Xa Mát",
+    "C": "Lệ Thanh",
+    "D": "Tịnh Biên",
+    "answer": "A",
+    "level": 2
+  },
+  {
+    "câu": 55,
+    "Question": "Ở miền Bắc từ tháng 7 âm lịch đến hết tháng 9 âm lịch được tính là mùa gì?",
+    "A": "Xuân",
+    "B": "Hạ",
+    "C": "Thu",
+    "D": "Đông",
+    "answer": "C",
+    "level": 1
+  },
+  {
+    "câu": 56,
+    "Question": "Áo the truyền thống thường đi kèm với khăn gì?",
+    "A": "Lông cừu",
+    "B": "Len",
+    "C": "Xếp",
+    "D": "Goang",
+    "answer": "C",
+    "level": 2
+  },
+  {
+    "câu": 57,
+    "Question": "Cầu thang lên chùa một cột hiện nay làm bằng gì?",
+    "A": "Gỗ",
+    "B": "Tre",
+    "C": "Gạch vữa",
+    "D": "Bê tông",
+    "answer": "C",
+    "level": 3
+  },
+  {
+    "câu": 58,
+    "Question": "3 định luật mang tên nhà bác học Kepler được ứng dụng trong lĩnh vực nào?",
+    "A": "Thiên văn học",
+    "B": "Vật lí học",
+    "C": "Toán học",
+    "D": "Hoá học",
+    "answer": "A",
+    "level": 2
+  },
+  {
+    "câu": 59,
+    "Question": "Nhà khoa học nào phát minh ra thuốc nổ?",
+    "A": "Anbert Einstein",
+    "B": "Thomas Edison",
+    "C": "Alfred Nobel",
+    "D": "Issac Newton",
+    "answer": "C",
+    "level": 2
+  },
+  {
+    "câu": 60,
+    "Question": "Thiên Nga đen chủ yếu sống ở nước nào?",
+    "A": "Úc",
+    "B": "Nga",
+    "C": "Canada",
+    "D": "Nauy",
+    "answer": "A",
+    "level": 3
+  },
+  {
+    "câu": 61,
+    "Question": "Hình thức tồn tại bằng cách sống trên cơ thể vật chủ được gọi là gì?",
+    "A": "Kí sinh",
+    "B": "Kí gửi",
+    "C": "Kí thác",
+    "D": "Kí kết",
+    "answer": "A",
+    "level": 1
+  },
+  {
+    "câu": 62,
+    "Question": "Dạng vật chất nóng chảy do núi nửa hoạt động phun trào ra được gọi là gì?",
+    "A": "Dung hoà",
+    "B": "Dung nham",
+    "C": "Dung môi",
+    "D": "Dung nhan",
+    "answer": "B",
+    "level": 1
+  },
+  {
+    "câu": 63,
+    "Question": "Một sào Bắc Bộ bằng nbao nhiêu mét vuông?",
+    "A": "50m2",
+    "B": "100m2",
+    "C": "200m2",
+    "D": "360m2",
+    "answer": "D",
+    "level": 2
+  },
+  {
+    "câu": 64,
+    "Question": "Môn hoá học hiện nay được đưa vào chương trình giảng dạy trong trường phổ thông từ chương trình lớp mấy?",
+    "A": "Lớp 5",
+    "B": "Lớp 8",
+    "C": "Lớp 10",
+    "D": "Lớp 12",
+    "answer": "B",
+    "level": 2
+  },
+  {
+    "câu": 65,
+    "Question": "Giải đua xe vô địch thế giới công thức 1 được tổ chức lần đầu tiên vào năm nào?",
+    "A": "1950",
+    "B": "1960",
+    "C": "1970",
+    "D": "1980",
+    "answer": "A",
+    "level": 3
+  },
+  {
+    "câu": 66,
+    "Question": "Trong hệ đo lường máy tính đơn vị nào sau đây bé nhất?",
+    "A": "B",
+    "B": "KB",
+    "C": "MB",
+    "D": "GB",
+    "answer": "A",
+    "level": 2
+  },
+  {
+    "câu": 67,
+    "Question": "Vườn quốc gia nào được thành lập đầu tiên ở Việt Nam?",
+    "A": "Ba Bể",
+    "B": "Cúc Phương",
+    "C": "Cát Tiên",
+    "D": "Yokdon",
+    "answer": "B",
+    "level": 3
+  },
+  {
+    "câu": 68,
+    "Question": "Cửa sông Bạch Đằng nằm ở tỉnh thành nào sau đây?",
+    "A": "Nam Định",
+    "B": "Thái Bình",
+    "C": "Ninh Bình",
+    "D": "Quảng Ninh",
+    "answer": "D",
+    "level": 2
+  },
+  {
+    "câu": 69,
+    "Question": "Khí nào sau đây không phải là khí nhà kính?",
+    "A": "CO2",
+    "B": "CFC",
+    "C": "N2",
+    "D": "O3",
+    "answer": "D",
+    "level": 2
+  },
+  {
+    "câu": 70,
+    "Question": "Đâu là một hình ảnh đặc trưng của làng quê Bắc Bộ?",
+    "A": "Cây dừa",
+    "B": "Cây nho",
+    "C": "Cây vú sữa",
+    "D": "Cây đa",
+    "answer": "D",
+    "level": 1
+  },
+  {
+    "câu": 71,
+    "Question": "Chùa Chấn Quốc nằm ven hồ nào của Hà Nội?",
+    "A": "Hồ Ba Mẫu",
+    "B": "Hồ Gươm",
+    "C": "Hồ Tây",
+    "D": "Hồ Bẩy Mẫu",
+    "answer": "C",
+    "level": 2
+  },
+  {
+    "câu": 72,
+    "Question": "Không có con vật nào sau đây?",
+    "A": "Ong thợ",
+    "B": "Ong vò vẽ",
+    "C": "Ong chúa",
+    "D": "Ong ong",
+    "answer": "D",
+    "level": 1
+  },
+  {
+    "câu": 73,
+    "Question": "Theo hệ chữ số La Mã thì X tương đương với số mấy?",
+    "A": "5",
+    "B": "7",
+    "C": "9",
+    "D": "10",
+    "answer": "D",
+    "level": 1
+  },
+  {
+    "câu": 74,
+    "Question": "Dạ Minh Trùng là tên gọi khác của loại côn trùng nào?",
+    "A": "Nhện",
+    "B": "Dế mèn",
+    "C": "Bọ ngựa",
+    "D": "Bọ cạp",
+    "answer": "B",
+    "level": 3
+  },
+  {
+    "câu": 75,
+    "Question": "Xứ sở nào được gọi nào đất nước của núi tuyết?",
+    "A": "Đan Mạch",
+    "B": "Na Uy",
+    "C": "Hàn Quốc",
+    "D": "Tây Tạng",
+    "answer": "B",
+    "level": 2
+  },
+  {
+    "câu": 76,
+    "Question": "Loài cá nào khi trưởng thành 2 mắt cùng mọc một bên?",
+    "A": "Cá Lăn",
+    "B": "Cá Bò",
+    "C": "Cá Thờn Bơn",
+    "D": "Các Chạch",
+    "answer": "C",
+    "level": 3
+  },
+  {
+    "câu": 77,
+    "Question": "Vị vua nào đã minh oan cho Nguyễn Trãi trong vụ án Lệ Chi Viên?",
+    "A": "Lê Thái Tổ",
+    "B": "Lê Thái Tông",
+    "C": "Lê Thánh Tông",
+    "D": "Lê Anh Tông",
+    "answer": "C",
+    "level": 2
+  },
+  {
+    "câu": 78,
+    "Question": "Trong các cơ thể sống thành phần chủ yếu là gì?",
+    "A": "Chất hữu cơ",
+    "B": "Nước",
+    "C": "Chất vô cơ",
+    "D": "Vitamin",
+    "answer": "B",
+    "level": 2
+  },
+  {
+    "câu": 79,
+    "Question": "Đâu là loại vũ khí đánh xe tăng của các chiến sĩ quyết tử thủ đô Hà Nội trong những ngày đầu kháng chiến chống Pháp?",
+    "A": "Bom 0 càng",
+    "B": "Bom 1 càng",
+    "C": "Bom 2 càng",
+    "D": "Bom 3 càng",
+    "answer": "D",
+    "level": 1
+  },
+  {
+    "câu": 80,
+    "Question": "Tôn là hợp chất của sắt và gì?",
+    "A": "Kẽm",
+    "B": "Mangan",
+    "C": "Silic",
+    "D": "Nhôm",
+    "answer": "A",
+    "level": 2
+  },
+  {
+    "câu": 81,
+    "Question": "Nhà hát nào sau đây là nhà hát cuối cùng được xây dựng dưới thời nhà Nguyễn?",
+    "A": "Minh Khiêm Đường",
+    "B": "Tịnh Quan Viên",
+    "C": "Duyệt Thị Đường",
+    "D": "Cửu Tư Đà",
+    "answer": "C",
+    "level": 2
+  },
+  {
+    "câu": 82,
+    "Question": "Con so là đứa con thứ mấy?",
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4",
+    "answer": "A",
+    "level": 1
+  },
+  {
+    "câu": 83,
+    "Question": "Dụng cụ đo lượng mưa có tên gọi là gì?",
+    "A": "Phong kế",
+    "B": "Nhiệt kế",
+    "C": "Phù kế",
+    "D": "Vũ kế",
+    "answer": "D",
+    "level": 1
+  },
+  {
+    "câu": 84,
+    "Question": "Nghê thuật vẽ chân dung giống y như người thật được gọi là gì?",
+    "A": "Thuỷ mặc",
+    "B": "Truyền thần",
+    "C": "Tĩnh vật",
+    "D": "Sơn mài",
+    "answer": "B",
+    "level": 2
+  },
+  {
+    "câu": 85,
+    "Question": "Bún tàu là tên gọi khác của loại thực phẩm nào sau đây?",
+    "A": "Phở",
+    "B": "Miến",
+    "C": "Mì tôm",
+    "D": "Bánh đa cua",
+    "answer": "B",
+    "level": 2
+  },
+  {
+    "câu": 86,
+    "Question": "Loài vật nào sau đây không sinh sống theo đàn?",
+    "A": "Linh dương đầu bò",
+    "B": "Sư tử",
+    "C": "Báo đen Nam Mỹ",
+    "D": "Linh cẩu",
+    "answer": "C",
+    "level": 2
+  },
+  {
+    "câu": 87,
+    "Question": "Cô bé lọ lem có mấy người chị độc ác?",
+    "A": "7",
+    "B": "5",
+    "C": "4",
+    "D": "2",
+    "answer": "D",
+    "level": 2
+  },
+  {
+    "câu": 88,
+    "Question": "Tàu điện ngầm xuất hiện lần đầu tiên ở nước nào?",
+    "A": "Anh",
+    "B": "Pháp",
+    "C": "Nga",
+    "D": "Đức",
+    "answer": "A",
+    "level": 3
+  },
+  {
+    "câu": 89,
+    "Question": "Quốc hiệu của nước ta khi Đinh Bộ Lĩnh lên ngôi là gì?",
+    "A": "Đại Cồ Việt",
+    "B": "Vạn Xuân",
+    "C": "Đại Việt",
+    "D": "Việt Nam",
+    "answer": "A",
+    "level": 2
+  },
+  {
+    "câu": 90,
+    "Question": "Vị tướng nào đã cứu Lê Lợi trong cuộc khởi nghĩa Lam Sơn bằng cách đóng giả Lê Lợi để giải vây?",
+    "A": "Nguyễn Chích",
+    "B": "Lê Ngân",
+    "C": "Lê Lai",
+    "D": "Lê Sáp",
+    "answer": "C",
+    "level": 3
+  },
+  {
+    "câu": 91,
+    "Question": "Tâm của đường tròn ngoại tiếp tam giác là giao điểm của các đường nào?",
+    "A": "Đường cao",
+    "B": "Đường phân giác",
+    "C": "Đường trung tuyến",
+    "D": "Đường trung trực",
+    "answer": "D",
+    "level": 1
+  },
+  {
+    "câu": 92,
+    "Question": "Hoàng đế cuối cùng của nước ta là ai?",
+    "A": "Quang Trung",
+    "B": "Bảo Đại",
+    "C": "Minh Mạng",
+    "D": "Hàm Nghi",
+    "answer": "B",
+    "level": 1
+  },
+  {
+    "câu": 93,
+    "Question": "Sông nào sau đây còn có tên gọi là sông Vân Cừ?",
+    "A": "Sông Mã",
+    "B": "Sông Hồng",
+    "C": "Sông Bạch Đằng",
+    "D": "Sông Lô",
+    "answer": "C",
+    "level": 2
+  },
+  {
+    "câu": 94,
+    "Question": "Hiện tượng tự nhiên nào sau đây chưa từng xảy ra tại thành phố Hồ Chí Minh?",
+    "A": "Mưa",
+    "B": "Tuyết",
+    "C": "Nắng",
+    "D": "Lụt",
+    "answer": "B",
+    "level": 1
+  },
+  {
+    "câu": 95,
+    "Question": "Viễn thị là tật không nhìn được các vật ở vị trí nào?",
+    "A": "Xa",
+    "B": "Gần",
+    "C": "Bên phải",
+    "D": "Bên trái",
+    "answer": "B",
+    "level": 1
+  },
+  {
+    "câu": 96,
+    "Question": "Nơi ăn ở tập thể của học sinh sinh viên thường được gọi là gì?",
+    "A": "Trạm xá",
+    "B": "Tịnh xá",
+    "C": "Học xá",
+    "D": "Ký túc xá",
+    "answer": "D",
+    "level": 1
+  },
+  {
+    "câu": 97,
+    "Question": "Đại kiện tướng cờ vua đầu tiên của Việt Nam là ai?",
+    "A": "Nguyễn Ngọc Trường Sơn",
+    "B": "Lê Quang Liêm",
+    "C": "Đào Thiên Hải",
+    "D": "Lê Anh Khôi",
+    "answer": "C",
+    "level": 3
+  },
+  {
+    "câu": 98,
+    "Question": "Đâu là một khái niệm được sử dụng trong toán học?",
+    "A": "Quỹ tích",
+    "B": "Quỹ tín dụng",
+    "C": "Quỹ đạo",
+    "D": "Quỹ đen",
+    "answer": "A",
+    "level": 2
+  },
+  {
+    "câu": 99,
+    "Question": "Tên gọi mục kỉnh chỉ đồ vật gì trong cuộc sống?",
+    "A": "Gương soi",
+    "B": "Kính mắt",
+    "C": "Ống nhòm",
+    "D": "Kính vạn hoa",
+    "answer": "B",
+    "level": 2
+  },
+  {
+    "câu": 100,
+    "Question": "Đâu là tên một tác phẩm của Nguyễn Trãi?",
+    "A": "Bình Thanh Đại Cáo",
+    "B": "Bình Ngô Đại Cáo",
+    "C": "Bình Nguyên Đại Cáo",
+    "D": "Bình Thản Đại Cáo",
+    "answer": "B",
+    "level": 1
+  },
+  {
+    "câu": 101,
+    "Question": "Số 3 được viết thế nào trong hệ nhị phân?",
+    "A": "0",
+    "B": "1",
+    "C": "11",
+    "D": "100",
+    "answer": "C",
+    "level": 2
+  },
+  {
+    "câu": 102,
+    "Question": "Nhạc phụ là ai?",
+    "A": "Anh vợ",
+    "B": "Ông vợ",
+    "C": "Bố vợ",
+    "D": "Chú vợ",
+    "answer": "C",
+    "level": 1
+  },
+  {
+    "câu": 103,
+    "Question": "Loại đậu nào dùng để làm đậu phụ?",
+    "A": "Đậu xanh",
+    "B": "Đậu đen",
+    "C": "Đậu nành",
+    "D": "Đậu đỏ",
+    "answer": "C",
+    "level": 1
+  },
+  {
+    "câu": 104,
+    "Question": "Kí hiệu hoá học của Chì trong bảng tuần hoàn Mendeleep là gì?",
+    "A": "Pb",
+    "B": "Fe",
+    "C": "Na",
+    "D": "Ca",
+    "answer": "A",
+    "level": 1
+  },
+  {
+    "câu": 105,
+    "Question": "Ở dưới lòng suối thường có loại đá nào?",
+    "A": "Đá quý",
+    "B": "Đá răm",
+    "C": "Đá cuội",
+    "D": "Đá tai mèo",
+    "answer": "C",
+    "level": 1
+  },
+  {
+    "câu": 106,
+    "Question": "Trong toán học ma trận thường được viết thành bảng kẹp giữa bởi 2 dấu gì?",
+    "A": "Ngoặc kép",
+    "B": "Ngoặc vuông",
+    "C": "Ngoặc tròn",
+    "D": "Ngoặc nhọn",
+    "answer": "B",
+    "level": 2
+  },
+  {
+    "câu": 107,
+    "Question": "Các môn thi Toán, Lí, Vẽ Mỹ Thuật là dành cho thí sinh của khối thi đặc biệt nào?",
+    "A": "K",
+    "B": "V",
+    "C": "T",
+    "D": "M",
+    "answer": "B",
+    "level": 2
+  },
+  {
+    "câu": 108,
+    "Question": "Cướp biển còn được gọi với tên khác là gì?",
+    "A": "Đạo tặc",
+    "B": "Lâm tặc",
+    "C": "Tin tặc",
+    "D": "Hải tặc",
+    "answer": "D",
+    "level": 1
+  },
+  {
+    "câu": 109,
+    "Question": "Trong hình học đường thẳng giao cắt với đường cong tại 2 điểm được gọi là gì?",
+    "A": "Tiếp tuyến",
+    "B": "Pháp tuyến",
+    "C": "Cát tuyến",
+    "D": "Đơn tuyến",
+    "answer": "C",
+    "level": 1
+  },
+  {
+    "câu": 110,
+    "Question": "Hang Sơn Đoòng nằm ở đâu?",
+    "A": "Động Hương Tích",
+    "B": "Tam Cốc Bích Động",
+    "C": "Phong Nha Kẻ Bàng",
+    "D": "Vườn Quốc Gia Cát Tiên",
+    "answer": "C",
+    "level": 2
+  },
+  {
+    "câu": 111,
+    "Question": "Ai là vị vua thứ 8 của triều đại nhà Lý?",
+    "A": "Lý Anh Tông",
+    "B": "Lý Cao Tông",
+    "C": "Lý Huệ Tông",
+    "D": "Lý Chiêu Hoàng",
+    "answer": "C",
+    "level": 2
+  },
+  {
+    "câu": 112,
+    "Question": "Ruột quả chanh leo khi chín thường có màu gì?",
+    "A": "Xanh",
+    "B": "Nâu",
+    "C": "Vàng",
+    "D": "Đỏ",
+    "answer": "C",
+    "level": 1
+  },
+  {
+    "câu": 113,
+    "Question": "Ngày xá tội vong nhân là ngày nào?",
+    "A": "Rằm tháng riêng",
+    "B": "Rằm tháng 3",
+    "C": "Rằm tháng 7",
+    "D": "Rằm tháng 8",
+    "answer": "C",
+    "level": 1
+  },
+  {
+    "câu": 114,
+    "Question": "Đâu là từ chỉ cơ gió xoáy dữ dội?",
+    "A": "Cuồng cẳng",
+    "B": "Cuồng phong",
+    "C": "Cuồng chân",
+    "D": "Cuồng nhiệt",
+    "answer": "B",
+    "level": 1
+  },
+  {
+    "câu": 115,
+    "Question": "Kim loại nào sau đây có khả năng dẫn điện tốt nhất?",
+    "A": "Vàng",
+    "B": "Bạc",
+    "C": "Đồng",
+    "D": "Chì",
+    "answer": "B",
+    "level": 1
+  },
+  {
+    "câu": 116,
+    "Question": "Cá thở dưới nước tạo ra gì?",
+    "A": "Bọt khí",
+    "B": "Bùn",
+    "C": "Rong rêu",
+    "D": "Phù du",
+    "answer": "A",
+    "level": 1
+  },
+  {
+    "câu": 117,
+    "Question": "Áo khoác ngoài của nhà vua được gọi là gì?",
+    "A": "Hoàng Long",
+    "B": "Hoàng Yến",
+    "C": "Hoàng Bào",
+    "D": "Hoàng Ân",
+    "answer": "C",
+    "level": 1
+  },
+  {
+    "câu": 118,
+    "Question": "Đâu là ngày thành lập Quân đội nhân dân Việt Nam?",
+    "A": "26-3",
+    "B": "27-7",
+    "C": "20-10",
+    "D": "22-12",
+    "answer": "D",
+    "level": 1
+  },
+  {
+    "câu": 119,
+    "Question": "Thuỷ đình là sân khấu của loại hình nghệ thuật nào sau đây?",
+    "A": "Cải lương",
+    "B": "Tuồng",
+    "C": "Múa rối nước",
+    "D": "Chèo",
+    "answer": "C",
+    "level": 1
+  }
+]
