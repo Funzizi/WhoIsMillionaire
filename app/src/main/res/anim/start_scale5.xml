@@ -8,6 +8,6 @@
         android:pivotX="50%"
         android:pivotY="50%"
         android:duration="300"
-        android:startOffset="3800"
+        android:startOffset="3850"
         />
 </set>

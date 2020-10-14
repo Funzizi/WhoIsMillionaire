@@ -1,4 +1,4 @@
-package com.example.whoismillionaire;
+package com.example.whoismillionaire.controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,6 +14,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.whoismillionaire.R;
 import com.example.whoismillionaire.R.drawable;
 import com.example.whoismillionaire.model.Question;
 
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView tvTimes;
     private TextView tvPoint;
 
-    private int count = 1;              // Câu hỏi hiện tại
+    private int count = 6;              // Câu hỏi hiện tại
     private boolean clickHelpHalf;      // Trợ giúp 50:50 đã được dùng hay chưa?
     private boolean clickHelpCall;      // Trợ giúp Call đã được dùng hay chưa?
     private boolean clickHelpPerson;    // Trợ giúp Person đã được dùng hay chưa?
@@ -59,14 +60,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mapping();
 
-        myDatabase = new MyDatabase(this);
-        listQuestionLv1.addAll(myDatabase.getData(1));
-        listQuestionLv2.addAll(myDatabase.getData(2));
-        listQuestionLv3.addAll(myDatabase.getData(3));
-
-        addMediaQuestion();
-        newQuestion(count);
-
 //        // Khi sử dụng data là file Json
 //        try {
 //            JSONArray array = new JSONArray(readData());
@@ -83,6 +76,38 @@ public class MainActivity extends AppCompatActivity {
 //        } catch (JSONException e) {
 //            e.printStackTrace();
 //        }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        myDatabase = new MyDatabase(this);
+        listQuestionLv1.addAll(myDatabase.getData(1));
+        listQuestionLv2.addAll(myDatabase.getData(2));
+        listQuestionLv3.addAll(myDatabase.getData(3));
+        addMediaQuestion();
+        newQuestion(count);
+    }
+
+    // Huỷ hết media
+    @Override
+    protected void onPause() {
+        super.onPause();
+        mediaQuestion.stop();
+        mediaClock.stop();
+        mediaAnswer.stop();
+        mediaAnswerNow.stop();
+        mediaAnswerTrue.stop();
+        mediaHelp5050.stop();
+        mediaHelpCall.stop();
+        mediaHelpPerson.stop();
+        media.stop();
+        mediaEnd.stop();
+    }
+
+    // Không cho phép User nhấn Back
+    @Override
+    public void onBackPressed() {
     }
 
     // List âm thanh đọc câu hỏi
@@ -365,7 +390,7 @@ public class MainActivity extends AppCompatActivity {
                 mediaEnd.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                     @Override
                     public void onCompletion(MediaPlayer mediaPlayer) {
-                        MainActivity.this.finish();
+                        startActivity(new Intent(MainActivity.this, MenuActivity.class));
                     }
                 });
             }
@@ -443,7 +468,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Khởi tạo media đọc câu đáp án mà User chọn
-    private void createMediaAnswer() {
+    private void startMediaAnswer() {
         switch (indexChoose) {
             case 0:
                 mediaAnswer = MediaPlayer.create(MainActivity.this, R.raw.ans_a);
@@ -467,7 +492,7 @@ public class MainActivity extends AppCompatActivity {
     private void showAnswer() {
         if (mediaClock.isPlaying()) mediaClock.stop();
 
-        createMediaAnswer();
+        startMediaAnswer();
         mediaAnswer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mediaPlayer) {
@@ -491,7 +516,8 @@ public class MainActivity extends AppCompatActivity {
                                                 indexChoose = -1;   // Reset indexChoose
                                                 newQuestion(count);
                                             } else {
-                                                startActivity(new Intent(MainActivity.this, WinActivity.class));
+                                                startActivity(new Intent(MainActivity.this,
+                                                        WinActivity.class));
                                             }
                                         } else {
                                             message();
@@ -521,7 +547,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        // Nếu User chưa chọn đáp án thì hiện thông báo hỏi có muốn chơi tiếp không?
+        // Nếu User chưa chọn đáp án thì hiện thông báo
         public void onFinish() {
             if (indexChoose == -1) {
                 message();
@@ -551,7 +577,8 @@ public class MainActivity extends AppCompatActivity {
                     if (count <= 5) {
                         btAnswerA.setBackgroundResource(R.drawable.background_answer_when_click);
                         indexChoose = 0;
-                    } else {
+                    }
+                    else {
                         tv.setText("Bạn chọn đáp án A?");
                         btAgree.setOnClickListener(new View.OnClickListener() {
                             @Override
@@ -740,27 +767,4 @@ public class MainActivity extends AppCompatActivity {
         tvTimes = findViewById(R.id.tv_times);
         tvPoint = findViewById(R.id.tv_Point);
     }
-
-//     // Đọc file Json trả về danh sách
-//    private String readData() {
-//        InputStream inputStream = getResources().openRawResource(R.raw.data);
-//        Writer writer = new StringWriter();
-//        char[] buffer = new char[1024];
-//        try {
-//            Reader reader = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8));
-//            int n;
-//            while ((n = reader.read(buffer)) != -1) {
-//                writer.write(buffer, 0, n);
-//            }
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        } finally {
-//            try {
-//                inputStream.close();
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//        }
-//        return writer.toString();
-//    }
 }

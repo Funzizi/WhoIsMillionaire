@@ -1,4 +1,4 @@
-package com.example.whoismillionaire;
+package com.example.whoismillionaire.controller;
 
 import android.content.Context;
 import android.database.Cursor;
