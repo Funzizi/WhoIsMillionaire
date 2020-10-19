@@ -14,15 +14,12 @@ import com.example.whoismillionaire.R;
 public class SplashScreenActivity extends AppCompatActivity {
     private ImageView imvIconSplashScreen;
 
-    // Hiện Logo khi khởi động chương trình, sau 2s thì chuyển sang Activity kế tiếp
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
         imvIconSplashScreen = findViewById(R.id.imv_icon_splash_screen);
-        final Animation animationIconSplashScreen = AnimationUtils.loadAnimation(SplashScreenActivity.this,
-                                                        R.anim.splash_screen);
-        imvIconSplashScreen.startAnimation(animationIconSplashScreen);
+        imvIconSplashScreen.startAnimation(AnimationUtils.loadAnimation(SplashScreenActivity.this, R.anim.splash_screen));
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {

@@ -5,6 +5,13 @@
     android:layout_height="match_parent"
     tools:context=".controller.WinActivity">
 
+    <ImageView
+        android:id="@+id/imv_win"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/firework"
+        />
+
     <TextView
         android:id="@+id/tv_youWin"
         android:layout_width="match_parent"

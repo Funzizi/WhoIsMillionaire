@@ -6,36 +6,61 @@ import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
-import android.view.WindowManager;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import com.example.whoismillionaire.R;
 
 public class WinActivity extends AppCompatActivity {
     private Button btPlayAgain;
-    MediaPlayer mediaWin;
+    private ImageView imvWin;
+
+    boolean sound;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_win);
-        btPlayAgain = findViewById(R.id.bt_play_again);
+        initView();
+        sound = getIntent().getBooleanExtra("sound", true);
+        imvWin.startAnimation(AnimationUtils.loadAnimation(WinActivity.this, R.anim.win_scale));
         btPlayAgain.setBackgroundResource(0);
-        mediaWin = MediaPlayer.create(WinActivity.this, R.raw.win_games);
-        mediaWin.start();
-        mediaWin.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-            @Override
-            public void onCompletion(MediaPlayer mediaPlayer) {
-                btPlayAgain.setBackgroundResource(R.drawable.background_answer_when_click);
-                btPlayAgain.setText("Chơi lại");
-                btPlayAgain.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        startActivity(new Intent(WinActivity.this, MainActivity.class));
-                    }
-                });
-            }
-        });
+        if(sound){
+            MediaPlayer media = MediaPlayer.create(WinActivity.this, R.raw.win_games);
+            media.start();
+            media.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                @Override
+                public void onCompletion(MediaPlayer mediaPlayer) {
+                    btPlayAgain.setBackgroundResource(R.drawable.background_answer_when_click);
+                    btPlayAgain.setText("Chơi lại");
+                    btPlayAgain.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent intent = new Intent(WinActivity.this, MainActivity.class);
+                            intent.putExtra("sound", true);
+                            startActivity(intent);
+                        }
+                    });
+                }
+            });
+        }
+        else {
+            btPlayAgain.setBackgroundResource(R.drawable.background_answer_when_click);
+            btPlayAgain.setText("Chơi lại");
+            btPlayAgain.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(WinActivity.this, MainActivity.class);
+                    intent.putExtra("sound", false);
+                    startActivity(intent);
+                }
+            });
+        }
+    }
+
+    private void initView() {
+        btPlayAgain = findViewById(R.id.bt_play_again);
+        imvWin = findViewById(R.id.imv_win);
     }
 }

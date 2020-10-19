@@ -24,66 +24,94 @@ public class RulesActivity extends AppCompatActivity {
     private Button btStart;
     boolean isStart = true;    // Có thể nhấn sẵn sàng hay không
 
-    MediaPlayer mediaRules, mediaReady;
+    boolean sound;
+    MediaPlayer media;
 
     // Âm giới thiệu ở lần đầu, hết âm sẽ hiện nút sẵn sàng
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rules);
+        sound = getIntent().getBooleanExtra("sound", true);
         mapping();
-        btStart.setBackgroundResource(0);
-        startAnimation();
-        mediaRules = MediaPlayer.create(RulesActivity.this, R.raw.rule);
-        mediaReady = MediaPlayer.create(RulesActivity.this, R.raw.start_question);
-        mediaRules.start();
-        mediaRules.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-            @Override
-            public void onCompletion(MediaPlayer mediaPlayer) {
-                btStart.setBackgroundResource(R.drawable.background_answer_when_click);
-                btStart.setText("Sẵn sàng");
-                btStart.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        if(isStart){
-                            isStart = false;
-                            mediaReady.start();
-                            mediaReady.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-                                @Override
-                                public void onCompletion(MediaPlayer mediaPlayer) {
-                                    startActivity(new Intent(RulesActivity.this, MainActivity.class));
-                                }
-                            });
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if(sound){
+            btStart.setBackgroundResource(0);
+            startAnimation();
+            playMedia(R.raw.rule);
+            media.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                @Override
+                public void onCompletion(MediaPlayer mediaPlayer) {
+                    btStart.setBackgroundResource(R.drawable.background_answer_when_click);
+                    btStart.setText("Sẵn sàng");
+                    btStart.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            if(isStart){
+                                isStart = false;
+                                playMedia(R.raw.start_question);
+                                media.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                                    @Override
+                                    public void onCompletion(MediaPlayer mediaPlayer) {
+                                        Intent intent = new Intent(RulesActivity.this, MainActivity.class);
+                                        intent.putExtra("sound", true);
+                                        startActivity(intent);
+                                    }
+                                });
+                            }
                         }
-                    }
-                });
-            }
-        });
+                    });
+                }
+            });
+        }
+        else {
+            btStart.setBackgroundResource(R.drawable.background_answer_when_click);
+            btStart.setText("Sẵn sàng");
+            btStart.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(RulesActivity.this, MainActivity.class);
+                    intent.putExtra("sound", false);
+                    startActivity(intent);
+                }
+            });
+        }
     }
 
     // Tắt media, và cho phép người chơi có thể sẵn sàng ở lần sau
     @Override
     protected void onStop() {
         super.onStop();
-        if(mediaRules.isPlaying()) mediaRules.stop();
-        if(mediaReady.isPlaying()) mediaReady.stop();
+        stopMedia();
         isStart = true;
+    }
+
+    public void stopMedia() {
+        if (media != null) {
+            media.stop();
+            media.release();
+            media = null;
+        }
+    }
+
+    public void playMedia(int mediaId) {
+        stopMedia();
+        media = MediaPlayer.create(RulesActivity.this, mediaId);
+        media.start();
     }
 
     // Animation
     private void startAnimation() {
-        final Animation animStart5 = AnimationUtils.loadAnimation(RulesActivity.this, R.anim.start_scale5);
-        tvQ5.setAnimation(animStart5);
-        final Animation animStart10 = AnimationUtils.loadAnimation(RulesActivity.this, R.anim.start_scale10);
-        tvQ10.setAnimation(animStart10);
-        final Animation animStart15 = AnimationUtils.loadAnimation(RulesActivity.this, R.anim.start_scale15);
-        tvQ15.setAnimation(animStart15);
-        final Animation animStart5050 = AnimationUtils.loadAnimation(RulesActivity.this, R.anim.start_scale5050);
-        btStart5050.setAnimation(animStart5050);
-        final Animation animStartCall = AnimationUtils.loadAnimation(RulesActivity.this, R.anim.start_scale_call);
-        imvStartCall.setAnimation(animStartCall);
-        final Animation animStartPerson = AnimationUtils.loadAnimation(RulesActivity.this, R.anim.start_scale_person);
-        imvStartPerson.setAnimation(animStartPerson);
+        tvQ5.setAnimation(AnimationUtils.loadAnimation(RulesActivity.this, R.anim.start_scale5));
+        tvQ10.setAnimation(AnimationUtils.loadAnimation(RulesActivity.this, R.anim.start_scale10));
+        tvQ15.setAnimation(AnimationUtils.loadAnimation(RulesActivity.this, R.anim.start_scale15));
+        btStart5050.setAnimation(AnimationUtils.loadAnimation(RulesActivity.this, R.anim.start_scale5050));
+        imvStartCall.setAnimation(AnimationUtils.loadAnimation(RulesActivity.this, R.anim.start_scale_call));
+        imvStartPerson.setAnimation(AnimationUtils.loadAnimation(RulesActivity.this, R.anim.start_scale_person));
     }
 
     private void mapping() {
