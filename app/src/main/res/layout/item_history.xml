@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_rank_item"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv_question_item"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_rank_item"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv_time_item"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/tv_question_item"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv_date_item"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_time_item"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:gravity="center"
+        />
+
+</RelativeLayout>

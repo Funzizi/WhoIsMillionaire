@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".controller.HistoryActivity">
+
+    <TextView
+        android:id="@+id/tv_high_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="Điểm cao"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_rank"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_high_score"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="20dp"
+        android:text="Xếp hạng"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_question_sum"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_high_score"
+        android:layout_toRightOf="@+id/tv_rank"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="20dp"
+        android:text="Vượt qua"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_high_score"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/tv_question_sum"
+        android:text="Thời gian"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_high_score"
+        android:layout_toRightOf="@+id/tv_time"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="20dp"
+        android:text="Ngày"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:gravity="center"
+        />
+
+    <ListView
+        android:id="@+id/lv_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_rank"
+        />
+
+</RelativeLayout>
