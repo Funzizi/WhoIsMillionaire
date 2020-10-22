@@ -22,6 +22,7 @@ import com.example.whoismillionaire.R;
 import com.example.whoismillionaire.R.drawable;
 import com.example.whoismillionaire.model.Question;
 
+import java.text.SimpleDateFormat;
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -97,7 +98,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-        String times = LocalTime.ofSecondOfDay(timeLoop / 2).toString();
+        int minute = timeLoop/2/60;
+        int second = timeLoop/2 - minute*60;
+        String seconds;
+        if(second < 10) seconds = "0" + second;
+        else seconds = "" + second;
+        String times = "0" + minute + ":" + seconds;
         Calendar calendar = Calendar.getInstance();
         int month = calendar.get(Calendar.MONTH) + 1;
         String date = calendar.get(Calendar.DAY_OF_MONTH) + "/" + month + "/" + calendar.get(Calendar.YEAR);
